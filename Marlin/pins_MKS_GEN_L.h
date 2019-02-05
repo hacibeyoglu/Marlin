@@ -49,4 +49,12 @@
   #define Y_CS_PIN 63
 #endif
 
+#ifndef Z_CS_PIN
+  #define Z_CS_PIN 64
+#endif
+
+#ifndef E0_CS_PIN
+  #define E0_CS_PIN 65
+#endif
+
 #include "pins_RAMPS.h"
